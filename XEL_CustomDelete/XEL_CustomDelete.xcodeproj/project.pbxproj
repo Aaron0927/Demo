@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A8BB6AE1E7A7B0C00CADEEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BB6AD1E7A7B0C00CADEEC /* main.m */; };
+		3A8BB6B11E7A7B0C00CADEEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BB6B01E7A7B0C00CADEEC /* AppDelegate.m */; };
+		3A8BB6B71E7A7B0C00CADEEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8BB6B51E7A7B0C00CADEEC /* Main.storyboard */; };
+		3A8BB6B91E7A7B0C00CADEEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8BB6B81E7A7B0C00CADEEC /* Assets.xcassets */; };
+		3A8BB6BC1E7A7B0C00CADEEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8BB6BA1E7A7B0C00CADEEC /* LaunchScreen.storyboard */; };
+		3A8BB6CC1E7A7C3D00CADEEC /* ShowTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BB6CB1E7A7C3D00CADEEC /* ShowTableViewController.m */; };
+		3A8BB6CF1E7A7CDC00CADEEC /* RightDeleteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BB6CE1E7A7CDC00CADEEC /* RightDeleteTableViewController.m */; };
+		3A8BB6D21E7A7CFF00CADEEC /* RightDeleteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BB6D11E7A7CFF00CADEEC /* RightDeleteTableViewCell.m */; };
+		3A8BB6D51E7A7D8900CADEEC /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BB6D41E7A7D8900CADEEC /* UIButton+ImageTitleSpacing.m */; };
+		3A8BB6D81E7A7FEF00CADEEC /* rule_delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A8BB6D61E7A7FEF00CADEEC /* rule_delete@2x.png */; };
+		3A8BB6D91E7A7FEF00CADEEC /* rule_delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A8BB6D71E7A7FEF00CADEEC /* rule_delete@3x.png */; };
+		3A8BB6E31E7A9B0900CADEEC /* LeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BB6E21E7A9B0900CADEEC /* LeftTableViewController.m */; };
+		3A8BB6E61E7A9B2400CADEEC /* LeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8BB6E51E7A9B2400CADEEC /* LeftTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A8BB6A91E7A7B0C00CADEEC /* XEL_CustomDelete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XEL_CustomDelete.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8BB6AD1E7A7B0C00CADEEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A8BB6AF1E7A7B0C00CADEEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A8BB6B01E7A7B0C00CADEEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A8BB6B61E7A7B0C00CADEEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A8BB6B81E7A7B0C00CADEEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A8BB6BB1E7A7B0C00CADEEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A8BB6BD1E7A7B0C00CADEEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A8BB6CA1E7A7C3D00CADEEC /* ShowTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowTableViewController.h; sourceTree = "<group>"; };
+		3A8BB6CB1E7A7C3D00CADEEC /* ShowTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowTableViewController.m; sourceTree = "<group>"; };
+		3A8BB6CD1E7A7CDC00CADEEC /* RightDeleteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightDeleteTableViewController.h; sourceTree = "<group>"; };
+		3A8BB6CE1E7A7CDC00CADEEC /* RightDeleteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightDeleteTableViewController.m; sourceTree = "<group>"; };
+		3A8BB6D01E7A7CFF00CADEEC /* RightDeleteTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightDeleteTableViewCell.h; sourceTree = "<group>"; };
+		3A8BB6D11E7A7CFF00CADEEC /* RightDeleteTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightDeleteTableViewCell.m; sourceTree = "<group>"; };
+		3A8BB6D31E7A7D8900CADEEC /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
+		3A8BB6D41E7A7D8900CADEEC /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
+		3A8BB6D61E7A7FEF00CADEEC /* rule_delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rule_delete@2x.png"; sourceTree = "<group>"; };
+		3A8BB6D71E7A7FEF00CADEEC /* rule_delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rule_delete@3x.png"; sourceTree = "<group>"; };
+		3A8BB6E11E7A9B0900CADEEC /* LeftTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableViewController.h; sourceTree = "<group>"; };
+		3A8BB6E21E7A9B0900CADEEC /* LeftTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableViewController.m; sourceTree = "<group>"; };
+		3A8BB6E41E7A9B2400CADEEC /* LeftTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableViewCell.h; sourceTree = "<group>"; };
+		3A8BB6E51E7A9B2400CADEEC /* LeftTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A8BB6A61E7A7B0C00CADEEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A8BB6A01E7A7B0C00CADEEC = {
+			isa = PBXGroup;
+			children = (
+				3A8BB6AB1E7A7B0C00CADEEC /* XEL_CustomDelete */,
+				3A8BB6AA1E7A7B0C00CADEEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A8BB6AA1E7A7B0C00CADEEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A8BB6A91E7A7B0C00CADEEC /* XEL_CustomDelete.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A8BB6AB1E7A7B0C00CADEEC /* XEL_CustomDelete */ = {
+			isa = PBXGroup;
+			children = (
+				3A8BB6AC1E7A7B0C00CADEEC /* Supporting Files */,
+				3A8BB6C31E7A7B9000CADEEC /* XEL_CustomDelegate */,
+				3A8BB6AF1E7A7B0C00CADEEC /* AppDelegate.h */,
+				3A8BB6B01E7A7B0C00CADEEC /* AppDelegate.m */,
+				3A8BB6B81E7A7B0C00CADEEC /* Assets.xcassets */,
+				3A8BB6BD1E7A7B0C00CADEEC /* Info.plist */,
+				3A8BB6BA1E7A7B0C00CADEEC /* LaunchScreen.storyboard */,
+				3A8BB6B51E7A7B0C00CADEEC /* Main.storyboard */,
+				3A8BB6CA1E7A7C3D00CADEEC /* ShowTableViewController.h */,
+				3A8BB6CB1E7A7C3D00CADEEC /* ShowTableViewController.m */,
+			);
+			path = XEL_CustomDelete;
+			sourceTree = "<group>";
+		};
+		3A8BB6AC1E7A7B0C00CADEEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A8BB6AD1E7A7B0C00CADEEC /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A8BB6C31E7A7B9000CADEEC /* XEL_CustomDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3A8BB6D01E7A7CFF00CADEEC /* RightDeleteTableViewCell.h */,
+				3A8BB6D11E7A7CFF00CADEEC /* RightDeleteTableViewCell.m */,
+				3A8BB6CD1E7A7CDC00CADEEC /* RightDeleteTableViewController.h */,
+				3A8BB6CE1E7A7CDC00CADEEC /* RightDeleteTableViewController.m */,
+				3A8BB6D31E7A7D8900CADEEC /* UIButton+ImageTitleSpacing.h */,
+				3A8BB6D41E7A7D8900CADEEC /* UIButton+ImageTitleSpacing.m */,
+				3A8BB6D61E7A7FEF00CADEEC /* rule_delete@2x.png */,
+				3A8BB6D71E7A7FEF00CADEEC /* rule_delete@3x.png */,
+				3A8BB6E11E7A9B0900CADEEC /* LeftTableViewController.h */,
+				3A8BB6E21E7A9B0900CADEEC /* LeftTableViewController.m */,
+				3A8BB6E41E7A9B2400CADEEC /* LeftTableViewCell.h */,
+				3A8BB6E51E7A9B2400CADEEC /* LeftTableViewCell.m */,
+			);
+			path = XEL_CustomDelegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A8BB6A81E7A7B0C00CADEEC /* XEL_CustomDelete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A8BB6C01E7A7B0C00CADEEC /* Build configuration list for PBXNativeTarget "XEL_CustomDelete" */;
+			buildPhases = (
+				3A8BB6A51E7A7B0C00CADEEC /* Sources */,
+				3A8BB6A61E7A7B0C00CADEEC /* Frameworks */,
+				3A8BB6A71E7A7B0C00CADEEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XEL_CustomDelete;
+			productName = XEL_CustomDelete;
+			productReference = 3A8BB6A91E7A7B0C00CADEEC /* XEL_CustomDelete.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A8BB6A11E7A7B0C00CADEEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Kim－pc";
+				TargetAttributes = {
+					3A8BB6A81E7A7B0C00CADEEC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3A8BB6A41E7A7B0C00CADEEC /* Build configuration list for PBXProject "XEL_CustomDelete" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A8BB6A01E7A7B0C00CADEEC;
+			productRefGroup = 3A8BB6AA1E7A7B0C00CADEEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A8BB6A81E7A7B0C00CADEEC /* XEL_CustomDelete */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A8BB6A71E7A7B0C00CADEEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8BB6BC1E7A7B0C00CADEEC /* LaunchScreen.storyboard in Resources */,
+				3A8BB6D91E7A7FEF00CADEEC /* rule_delete@3x.png in Resources */,
+				3A8BB6D81E7A7FEF00CADEEC /* rule_delete@2x.png in Resources */,
+				3A8BB6B91E7A7B0C00CADEEC /* Assets.xcassets in Resources */,
+				3A8BB6B71E7A7B0C00CADEEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A8BB6A51E7A7B0C00CADEEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8BB6CC1E7A7C3D00CADEEC /* ShowTableViewController.m in Sources */,
+				3A8BB6B11E7A7B0C00CADEEC /* AppDelegate.m in Sources */,
+				3A8BB6D51E7A7D8900CADEEC /* UIButton+ImageTitleSpacing.m in Sources */,
+				3A8BB6CF1E7A7CDC00CADEEC /* RightDeleteTableViewController.m in Sources */,
+				3A8BB6E61E7A9B2400CADEEC /* LeftTableViewCell.m in Sources */,
+				3A8BB6AE1E7A7B0C00CADEEC /* main.m in Sources */,
+				3A8BB6E31E7A9B0900CADEEC /* LeftTableViewController.m in Sources */,
+				3A8BB6D21E7A7CFF00CADEEC /* RightDeleteTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A8BB6B51E7A7B0C00CADEEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A8BB6B61E7A7B0C00CADEEC /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		3A8BB6BA1E7A7B0C00CADEEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A8BB6BB1E7A7B0C00CADEEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A8BB6BE1E7A7B0C00CADEEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A8BB6BF1E7A7B0C00CADEEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A8BB6C11E7A7B0C00CADEEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XEL_CustomDelete/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tronsis.XEL-CustomDelete";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A8BB6C21E7A7B0C00CADEEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XEL_CustomDelete/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tronsis.XEL-CustomDelete";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A8BB6A41E7A7B0C00CADEEC /* Build configuration list for PBXProject "XEL_CustomDelete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A8BB6BE1E7A7B0C00CADEEC /* Debug */,
+				3A8BB6BF1E7A7B0C00CADEEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A8BB6C01E7A7B0C00CADEEC /* Build configuration list for PBXNativeTarget "XEL_CustomDelete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A8BB6C11E7A7B0C00CADEEC /* Debug */,
+				3A8BB6C21E7A7B0C00CADEEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A8BB6A11E7A7B0C00CADEEC /* Project object */;
+}
