@@ -6,5 +6,7 @@
 - 自定义actionSheet
 	![仿支付宝交易管理](actionSheet_1.png)
 	![仿微博分享](actionSheet_2.png)
-
+- 自定义actionAlert
+	![自定义样式](actionAlert_1.png)
+	
 

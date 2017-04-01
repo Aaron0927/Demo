@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A655B911E8F3B380051B918 /* XELAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A655B8F1E8F3B380051B918 /* XELAlertViewController.m */; };
+		3A655B921E8F3B380051B918 /* XELAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A655B901E8F3B380051B918 /* XELAlertViewController.xib */; };
 		3A77BC1F1E8DF8D1004BB950 /* SecondTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A77BC1E1E8DF8D1004BB950 /* SecondTableViewCell.m */; };
 		3A77BC231E8E313B004BB950 /* WeiBoShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A77BC211E8E313B004BB950 /* WeiBoShareViewController.m */; };
 		3A77BC241E8E313B004BB950 /* WeiBoShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A77BC221E8E313B004BB950 /* WeiBoShareViewController.xib */; };
@@ -15,6 +17,7 @@
 		3A77BC321E8E5034004BB950 /* 50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A77BC2D1E8E5034004BB950 /* 50x50.png */; };
 		3A77BC331E8E5034004BB950 /* UIViewController+XELTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A77BC2F1E8E5034004BB950 /* UIViewController+XELTransition.m */; };
 		3A77BC341E8E5034004BB950 /* XELPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A77BC311E8E5034004BB950 /* XELPresentationController.m */; };
+		3A77BC381E8E5F58004BB950 /* XELAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A77BC371E8E5F58004BB950 /* XELAlertController.m */; };
 		3AA6AF7E1E8CE9B0002598F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA6AF7D1E8CE9B0002598F5 /* main.m */; };
 		3AA6AF811E8CE9B0002598F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA6AF801E8CE9B0002598F5 /* AppDelegate.m */; };
 		3AA6AF841E8CE9B0002598F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA6AF831E8CE9B0002598F5 /* ViewController.m */; };
@@ -25,6 +28,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A655B8E1E8F3B380051B918 /* XELAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XELAlertViewController.h; sourceTree = "<group>"; };
+		3A655B8F1E8F3B380051B918 /* XELAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XELAlertViewController.m; sourceTree = "<group>"; };
+		3A655B901E8F3B380051B918 /* XELAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XELAlertViewController.xib; sourceTree = "<group>"; };
 		3A77BC1D1E8DF8D1004BB950 /* SecondTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTableViewCell.h; sourceTree = "<group>"; };
 		3A77BC1E1E8DF8D1004BB950 /* SecondTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewCell.m; sourceTree = "<group>"; };
 		3A77BC201E8E313B004BB950 /* WeiBoShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiBoShareViewController.h; sourceTree = "<group>"; };
@@ -38,6 +44,8 @@
 		3A77BC2F1E8E5034004BB950 /* UIViewController+XELTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XELTransition.m"; sourceTree = "<group>"; };
 		3A77BC301E8E5034004BB950 /* XELPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XELPresentationController.h; sourceTree = "<group>"; };
 		3A77BC311E8E5034004BB950 /* XELPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XELPresentationController.m; sourceTree = "<group>"; };
+		3A77BC361E8E5F58004BB950 /* XELAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XELAlertController.h; sourceTree = "<group>"; };
+		3A77BC371E8E5F58004BB950 /* XELAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XELAlertController.m; sourceTree = "<group>"; };
 		3AA6AF791E8CE9B0002598F5 /* XELAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XELAlertController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AA6AF7D1E8CE9B0002598F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3AA6AF7F1E8CE9B0002598F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -75,6 +83,15 @@
 			path = ActionSheet;
 			sourceTree = "<group>";
 		};
+		3A77BC351E8E5BF0004BB950 /* ActionAlert */ = {
+			isa = PBXGroup;
+			children = (
+				3A77BC361E8E5F58004BB950 /* XELAlertController.h */,
+				3A77BC371E8E5F58004BB950 /* XELAlertController.m */,
+			);
+			path = ActionAlert;
+			sourceTree = "<group>";
+		};
 		3AA6AF701E8CE9B0002598F5 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +111,7 @@
 		3AA6AF7B1E8CE9B0002598F5 /* XELAlertController */ = {
 			isa = PBXGroup;
 			children = (
+				3A77BC351E8E5BF0004BB950 /* ActionAlert */,
 				3A77BC2C1E8E4870004BB950 /* ActionSheet */,
 				3AA6AF7F1E8CE9B0002598F5 /* AppDelegate.h */,
 				3AA6AF801E8CE9B0002598F5 /* AppDelegate.m */,
@@ -109,6 +127,9 @@
 				3A77BC251E8E3606004BB950 /* WeiBoShareCollectionViewCell.h */,
 				3A77BC261E8E3606004BB950 /* WeiBoShareCollectionViewCell.m */,
 				3A77BC271E8E3606004BB950 /* WeiBoShareCollectionViewCell.xib */,
+				3A655B8E1E8F3B380051B918 /* XELAlertViewController.h */,
+				3A655B8F1E8F3B380051B918 /* XELAlertViewController.m */,
+				3A655B901E8F3B380051B918 /* XELAlertViewController.xib */,
 				3AA6AF851E8CE9B0002598F5 /* Main.storyboard */,
 				3AA6AF881E8CE9B0002598F5 /* Assets.xcassets */,
 				3AA6AF8A1E8CE9B0002598F5 /* LaunchScreen.storyboard */,
@@ -152,6 +173,7 @@
 		3AA6AF711E8CE9B0002598F5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XEL;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Kim－pc";
 				TargetAttributes = {
@@ -186,6 +208,7 @@
 			files = (
 				3AA6AF8C1E8CE9B0002598F5 /* LaunchScreen.storyboard in Resources */,
 				3A77BC241E8E313B004BB950 /* WeiBoShareViewController.xib in Resources */,
+				3A655B921E8F3B380051B918 /* XELAlertViewController.xib in Resources */,
 				3AA6AF891E8CE9B0002598F5 /* Assets.xcassets in Resources */,
 				3A77BC321E8E5034004BB950 /* 50x50.png in Resources */,
 				3AA6AF871E8CE9B0002598F5 /* Main.storyboard in Resources */,
@@ -200,10 +223,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A77BC381E8E5F58004BB950 /* XELAlertController.m in Sources */,
 				3AA6AF981E8CF6AE002598F5 /* SecondViewController.m in Sources */,
 				3AA6AF841E8CE9B0002598F5 /* ViewController.m in Sources */,
 				3A77BC331E8E5034004BB950 /* UIViewController+XELTransition.m in Sources */,
 				3AA6AF811E8CE9B0002598F5 /* AppDelegate.m in Sources */,
+				3A655B911E8F3B380051B918 /* XELAlertViewController.m in Sources */,
 				3A77BC1F1E8DF8D1004BB950 /* SecondTableViewCell.m in Sources */,
 				3A77BC281E8E3606004BB950 /* WeiBoShareCollectionViewCell.m in Sources */,
 				3A77BC231E8E313B004BB950 /* WeiBoShareViewController.m in Sources */,

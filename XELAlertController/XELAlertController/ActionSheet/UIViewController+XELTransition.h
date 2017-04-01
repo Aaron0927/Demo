@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "XELPresentationController.h"
 
 @interface UIViewController (XELTransition)
 @property (nonatomic, assign) BOOL xel_delegateFlag;

@@ -9,6 +9,8 @@
 #import "UIViewController+XELTransition.h"
 #import <objc/runtime.h>
 
+#import "XELPresentationController.h"
+
 #define APP_SCREEN_HEIGHT   [UIScreen mainScreen].bounds.size.height
 #define APP_SCREEN_WIDTH    [UIScreen mainScreen].bounds.size.width
 
@@ -35,7 +37,12 @@
 
 - (void)xel_willTransitionToTraitCollection:(UITraitCollection *)newCollection withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
     
-    CGSize preferredContentSize = self.contentSize;
+    CGSize preferredContentSize = CGSizeZero;
+    if (CGSizeEqualToSize(self.contentSize, CGSizeZero)) {
+        preferredContentSize = self.preferredContentSize;
+    } else {
+        preferredContentSize = self.contentSize;
+    }
     BOOL vertical = newCollection.verticalSizeClass == UIUserInterfaceSizeClassCompact; //横屏为YES
     
     if (vertical) {
@@ -59,6 +66,7 @@
         viewControllerToPresent.transitioningDelegate = present;
         viewControllerToPresent.xel_delegateFlag = YES;
     }
+    
     [self presentViewController:viewControllerToPresent animated:YES completion:completion];
 }
 
@@ -80,12 +88,14 @@
 
 - (void)setContentSize:(CGSize)contentSize {
     self.preferredContentSize = contentSize;
-    objc_setAssociatedObject(self, _cmd, NSStringFromCGSize(contentSize), OBJC_ASSOCIATION_RETAIN);
+    objc_setAssociatedObject(self, _cmd, NSStringFromCGSize(contentSize), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 - (CGSize)contentSize {
     return CGSizeFromString(objc_getAssociatedObject(self, @selector(setContentSize:)));
 }
+
+
 
 
 @end

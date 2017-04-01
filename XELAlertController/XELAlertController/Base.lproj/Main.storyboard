@@ -28,10 +28,19 @@
                                     <action selector="showSecondView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jkP-LK-cko"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ha-Oc-Qr0">
+                                <rect key="frame" x="171.5" y="363.5" width="32" height="30"/>
+                                <state key="normal" title="alert"/>
+                                <connections>
+                                    <action selector="alertViewController:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BqN-0q-0Oj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="jIY-EF-ki2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9QV-kz-sDp"/>
+                            <constraint firstItem="4ha-Oc-Qr0" firstAttribute="top" secondItem="jIY-EF-ki2" secondAttribute="bottom" constant="15" id="Fou-6T-UWI"/>
+                            <constraint firstItem="4ha-Oc-Qr0" firstAttribute="centerX" secondItem="jIY-EF-ki2" secondAttribute="centerX" id="UVW-9f-Ton"/>
                             <constraint firstItem="jIY-EF-ki2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gpn-Ko-43S"/>
                         </constraints>
                     </view>

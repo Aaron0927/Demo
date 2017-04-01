@@ -12,6 +12,9 @@
 
 #import "WeiBoShareViewController.h"
 
+#import "XELAlertController.h"
+#import "XELAlertViewController.h"
+
 @interface ViewController ()
 
 @end
@@ -33,6 +36,16 @@
         [self xel_presentViewController:wbShare completion:NULL];
     };
 }
+
+- (IBAction)alertViewController:(id)sender {
+    XELAlertViewController *alertViewController = [XELAlertViewController new];
+    
+    XELAlertController *alert = [[XELAlertController alloc] initWithPresentedViewController:alertViewController presentingViewController:self];
+    
+    alertViewController.transitioningDelegate = alert;
+    [self presentViewController:alertViewController animated:YES completion:NULL];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
