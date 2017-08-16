@@ -1,0 +1,9 @@
+/* 
+  MyLocal.strings
+  LocalStringDemo
+
+  Created by Tronsis－mac on 17/8/16.
+  Copyright © 2017年 Kim－pc. All rights reserved.
+*/
+
+"Detial"    = "多人开发中需要使用NSLocalizedStringFromTable(key, tbl, comment)";

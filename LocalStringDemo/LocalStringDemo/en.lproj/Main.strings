@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "跳转"; ObjectID = "0lR-GA-3N1"; */
+"0lR-GA-3N1.normalTitle" = "Goto";
+
+/* Class = "UILabel"; text = "当前语言："; ObjectID = "MiF-P1-KVY"; */
+"MiF-P1-KVY.text" = "Current Language：";
+
+/* Class = "UIButton"; normalTitle = "切换语言"; ObjectID = "saU-d5-Fmd"; */
+"saU-d5-Fmd.normalTitle" = "Switch Language";
